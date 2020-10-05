@@ -1,0 +1,8 @@
+prefix=/home/tore/ws/devel
+
+Name: imc_ros_msgs
+Description: Description of imc_ros_msgs
+Version: 0.0.1
+Cflags: -I/home/tore/ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

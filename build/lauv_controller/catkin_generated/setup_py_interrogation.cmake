@@ -1,0 +1,7 @@
+set(lauv_controller_SETUP_PY_SETUP_MODULE "distutils.core")
+set(lauv_controller_SETUP_PY_VERSION "0.0.0")
+set(lauv_controller_SETUP_PY_SCRIPTS "")
+set(lauv_controller_SETUP_PY_PACKAGES "lauv_controller")
+set(lauv_controller_SETUP_PY_PACKAGE_DIRS "src/lauv_controller")
+set(lauv_controller_SETUP_PY_MODULES "")
+set(lauv_controller_SETUP_PY_MODULE_DIRS "")

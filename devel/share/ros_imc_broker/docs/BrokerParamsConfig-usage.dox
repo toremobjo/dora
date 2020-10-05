@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="ros_imc_broker" pkg="ros_imc_broker" type="ros_imc_broker">
+  <param name="server_addr" type="str" value="127.0.0.1" />
+  <param name="server_port" type="str" value="32603" />
+</node>
+\endverbatim
+

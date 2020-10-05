@@ -1,0 +1,15 @@
+imc_ros_msgs/Header header
+std_msgs/Float32 x
+std_msgs/Float32 y
+std_msgs/Float32 z
+std_msgs/Float32 phi
+std_msgs/Float32 theta
+std_msgs/Float32 psi
+std_msgs/Float32 p
+std_msgs/Float32 q
+std_msgs/Float32 r
+std_msgs/Float32 u
+std_msgs/Float32 v
+std_msgs/Float32 w
+std_msgs/Float32 bias_psi
+std_msgs/Float32 bias_r

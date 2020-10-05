@@ -1,0 +1,7 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~server_addr" : \b [str] Server's IPv4 address min: , default: 127.0.0.1, max: 
+- \b "~server_port" : \b [str] Server's TCP port min: , default: 32603, max: 
+

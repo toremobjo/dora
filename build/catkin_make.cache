@@ -1,0 +1,2 @@
+front_crosser:ice_drift/generator:imc_ros_msgs:lauv_controller:minerva2/Control_System_Minerva2:minerva2/minerva2_iface:ros_imc_broker
+-DCATKIN_DEVEL_PREFIX=/home/tore/ws/devel -DCMAKE_INSTALL_PREFIX=/home/tore/ws/install -G Unix Makefiles

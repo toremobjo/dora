@@ -1,0 +1,8 @@
+prefix=/home/tore/ws/devel
+
+Name: ros_imc_broker
+Description: Description of ros_imc_broker
+Version: 0.0.1
+Cflags: -I/home/tore/ws/devel/include -I/home/tore/ws/src/ros_imc_broker/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs message_runtime imc_ros_msgs

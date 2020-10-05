@@ -1,0 +1,8 @@
+prefix=/home/tore/ws/install
+
+Name: generator
+Description: Description of generator
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

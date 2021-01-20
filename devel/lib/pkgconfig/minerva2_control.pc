@@ -1,8 +1,0 @@
-prefix=/home/tore/ws/devel
-
-Name: minerva2_control
-Description: Description of minerva2_control
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

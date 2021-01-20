@@ -1,4 +1,4 @@
-prefix=/home/tore/ws/install
+prefix=/home/tore/software/dora/install
 
 Name: lauv_controller
 Description: Description of lauv_controller

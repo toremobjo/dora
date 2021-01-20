@@ -1,8 +1,0 @@
-prefix=/home/tore/ws/install
-
-Name: minerva2_iface
-Description: Description of minerva2_iface
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lminerva2_iface
-Requires: roscpp rospy message_runtime std_msgs

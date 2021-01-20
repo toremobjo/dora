@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Factory.cpp" "/home/tore/ws/build/ros_imc_broker/CMakeFiles/translator_node.dir/include/IMC/Base/Factory.cpp.o"
-  "/home/tore/ws/src/ros_imc_broker/src/translator_node.cpp" "/home/tore/ws/build/ros_imc_broker/CMakeFiles/translator_node.dir/src/translator_node.cpp.o"
+  "/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Factory.cpp" "/home/tore/software/dora/build/ros_imc_broker/CMakeFiles/translator_node.dir/include/IMC/Base/Factory.cpp.o"
+  "/home/tore/software/dora/src/ros_imc_broker/src/translator_node.cpp" "/home/tore/software/dora/build/ros_imc_broker/CMakeFiles/translator_node.dir/src/translator_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,8 +18,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/tore/ws/devel/include"
-  "/home/tore/ws/src/ros_imc_broker/include"
+  "/home/tore/software/dora/devel/include"
+  "/home/tore/software/dora/src/ros_imc_broker/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

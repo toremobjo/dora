@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tore/ws/src
+CMAKE_SOURCE_DIR = /home/tore/software/dora/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tore/ws/build
+CMAKE_BINARY_DIR = /home/tore/software/dora/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tore/ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tore/ws/build/CMakeFiles /home/tore/ws/build/ros_imc_broker/CMakeFiles/progress.marks
-	cd /home/tore/ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tore/ws/build/CMakeFiles 0
+	cd /home/tore/software/dora/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tore/software/dora/build/CMakeFiles /home/tore/software/dora/build/ros_imc_broker/CMakeFiles/progress.marks
+	cd /home/tore/software/dora/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tore/software/dora/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tore/ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/clean
+	cd /home/tore/software/dora/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tore/ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/preinstall
+	cd /home/tore/software/dora/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tore/ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/preinstall
+	cd /home/tore/software/dora/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tore/ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tore/software/dora/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/rule:
-	cd /home/tore/ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/rule
+	cd /home/tore/software/dora/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/rule
 .PHONY : ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ ros_imc_broker_node: ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/rule
 
 # fast build rule for target.
 ros_imc_broker_node/fast:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build
 .PHONY : ros_imc_broker_node/fast
 
 # Convenience name for target.
 ros_imc_broker/CMakeFiles/ros_imc_broker_gencfg.dir/rule:
-	cd /home/tore/ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/CMakeFiles/ros_imc_broker_gencfg.dir/rule
+	cd /home/tore/software/dora/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/CMakeFiles/ros_imc_broker_gencfg.dir/rule
 .PHONY : ros_imc_broker/CMakeFiles/ros_imc_broker_gencfg.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ ros_imc_broker_gencfg: ros_imc_broker/CMakeFiles/ros_imc_broker_gencfg.dir/rule
 
 # fast build rule for target.
 ros_imc_broker_gencfg/fast:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_gencfg.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_gencfg.dir/build
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_gencfg.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_gencfg.dir/build
 .PHONY : ros_imc_broker_gencfg/fast
 
 # Convenience name for target.
 ros_imc_broker/CMakeFiles/follow_reference_node.dir/rule:
-	cd /home/tore/ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/CMakeFiles/follow_reference_node.dir/rule
+	cd /home/tore/software/dora/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/CMakeFiles/follow_reference_node.dir/rule
 .PHONY : ros_imc_broker/CMakeFiles/follow_reference_node.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ follow_reference_node: ros_imc_broker/CMakeFiles/follow_reference_node.dir/rule
 
 # fast build rule for target.
 follow_reference_node/fast:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/follow_reference_node.dir/build.make ros_imc_broker/CMakeFiles/follow_reference_node.dir/build
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/follow_reference_node.dir/build.make ros_imc_broker/CMakeFiles/follow_reference_node.dir/build
 .PHONY : follow_reference_node/fast
 
 # Convenience name for target.
 ros_imc_broker/CMakeFiles/translator_node.dir/rule:
-	cd /home/tore/ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/CMakeFiles/translator_node.dir/rule
+	cd /home/tore/software/dora/build && $(MAKE) -f CMakeFiles/Makefile2 ros_imc_broker/CMakeFiles/translator_node.dir/rule
 .PHONY : ros_imc_broker/CMakeFiles/translator_node.dir/rule
 
 # Convenience name for target.
@@ -224,7 +224,7 @@ translator_node: ros_imc_broker/CMakeFiles/translator_node.dir/rule
 
 # fast build rule for target.
 translator_node/fast:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/translator_node.dir/build.make ros_imc_broker/CMakeFiles/translator_node.dir/build
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/translator_node.dir/build.make ros_imc_broker/CMakeFiles/translator_node.dir/build
 .PHONY : translator_node/fast
 
 include/IMC/Base/Factory.o: include/IMC/Base/Factory.cpp.o
@@ -233,9 +233,9 @@ include/IMC/Base/Factory.o: include/IMC/Base/Factory.cpp.o
 
 # target to build an object file
 include/IMC/Base/Factory.cpp.o:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/include/IMC/Base/Factory.cpp.o
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/follow_reference_node.dir/build.make ros_imc_broker/CMakeFiles/follow_reference_node.dir/include/IMC/Base/Factory.cpp.o
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/translator_node.dir/build.make ros_imc_broker/CMakeFiles/translator_node.dir/include/IMC/Base/Factory.cpp.o
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/include/IMC/Base/Factory.cpp.o
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/follow_reference_node.dir/build.make ros_imc_broker/CMakeFiles/follow_reference_node.dir/include/IMC/Base/Factory.cpp.o
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/translator_node.dir/build.make ros_imc_broker/CMakeFiles/translator_node.dir/include/IMC/Base/Factory.cpp.o
 .PHONY : include/IMC/Base/Factory.cpp.o
 
 include/IMC/Base/Factory.i: include/IMC/Base/Factory.cpp.i
@@ -244,9 +244,9 @@ include/IMC/Base/Factory.i: include/IMC/Base/Factory.cpp.i
 
 # target to preprocess a source file
 include/IMC/Base/Factory.cpp.i:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/include/IMC/Base/Factory.cpp.i
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/follow_reference_node.dir/build.make ros_imc_broker/CMakeFiles/follow_reference_node.dir/include/IMC/Base/Factory.cpp.i
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/translator_node.dir/build.make ros_imc_broker/CMakeFiles/translator_node.dir/include/IMC/Base/Factory.cpp.i
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/include/IMC/Base/Factory.cpp.i
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/follow_reference_node.dir/build.make ros_imc_broker/CMakeFiles/follow_reference_node.dir/include/IMC/Base/Factory.cpp.i
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/translator_node.dir/build.make ros_imc_broker/CMakeFiles/translator_node.dir/include/IMC/Base/Factory.cpp.i
 .PHONY : include/IMC/Base/Factory.cpp.i
 
 include/IMC/Base/Factory.s: include/IMC/Base/Factory.cpp.s
@@ -255,9 +255,9 @@ include/IMC/Base/Factory.s: include/IMC/Base/Factory.cpp.s
 
 # target to generate assembly for a file
 include/IMC/Base/Factory.cpp.s:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/include/IMC/Base/Factory.cpp.s
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/follow_reference_node.dir/build.make ros_imc_broker/CMakeFiles/follow_reference_node.dir/include/IMC/Base/Factory.cpp.s
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/translator_node.dir/build.make ros_imc_broker/CMakeFiles/translator_node.dir/include/IMC/Base/Factory.cpp.s
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/include/IMC/Base/Factory.cpp.s
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/follow_reference_node.dir/build.make ros_imc_broker/CMakeFiles/follow_reference_node.dir/include/IMC/Base/Factory.cpp.s
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/translator_node.dir/build.make ros_imc_broker/CMakeFiles/translator_node.dir/include/IMC/Base/Factory.cpp.s
 .PHONY : include/IMC/Base/Factory.cpp.s
 
 src/broker_node.o: src/broker_node.cpp.o
@@ -266,7 +266,7 @@ src/broker_node.o: src/broker_node.cpp.o
 
 # target to build an object file
 src/broker_node.cpp.o:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/src/broker_node.cpp.o
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/src/broker_node.cpp.o
 .PHONY : src/broker_node.cpp.o
 
 src/broker_node.i: src/broker_node.cpp.i
@@ -275,7 +275,7 @@ src/broker_node.i: src/broker_node.cpp.i
 
 # target to preprocess a source file
 src/broker_node.cpp.i:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/src/broker_node.cpp.i
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/src/broker_node.cpp.i
 .PHONY : src/broker_node.cpp.i
 
 src/broker_node.s: src/broker_node.cpp.s
@@ -284,7 +284,7 @@ src/broker_node.s: src/broker_node.cpp.s
 
 # target to generate assembly for a file
 src/broker_node.cpp.s:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/src/broker_node.cpp.s
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/build.make ros_imc_broker/CMakeFiles/ros_imc_broker_node.dir/src/broker_node.cpp.s
 .PHONY : src/broker_node.cpp.s
 
 src/follow_reference_node.o: src/follow_reference_node.cpp.o
@@ -293,7 +293,7 @@ src/follow_reference_node.o: src/follow_reference_node.cpp.o
 
 # target to build an object file
 src/follow_reference_node.cpp.o:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/follow_reference_node.dir/build.make ros_imc_broker/CMakeFiles/follow_reference_node.dir/src/follow_reference_node.cpp.o
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/follow_reference_node.dir/build.make ros_imc_broker/CMakeFiles/follow_reference_node.dir/src/follow_reference_node.cpp.o
 .PHONY : src/follow_reference_node.cpp.o
 
 src/follow_reference_node.i: src/follow_reference_node.cpp.i
@@ -302,7 +302,7 @@ src/follow_reference_node.i: src/follow_reference_node.cpp.i
 
 # target to preprocess a source file
 src/follow_reference_node.cpp.i:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/follow_reference_node.dir/build.make ros_imc_broker/CMakeFiles/follow_reference_node.dir/src/follow_reference_node.cpp.i
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/follow_reference_node.dir/build.make ros_imc_broker/CMakeFiles/follow_reference_node.dir/src/follow_reference_node.cpp.i
 .PHONY : src/follow_reference_node.cpp.i
 
 src/follow_reference_node.s: src/follow_reference_node.cpp.s
@@ -311,7 +311,7 @@ src/follow_reference_node.s: src/follow_reference_node.cpp.s
 
 # target to generate assembly for a file
 src/follow_reference_node.cpp.s:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/follow_reference_node.dir/build.make ros_imc_broker/CMakeFiles/follow_reference_node.dir/src/follow_reference_node.cpp.s
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/follow_reference_node.dir/build.make ros_imc_broker/CMakeFiles/follow_reference_node.dir/src/follow_reference_node.cpp.s
 .PHONY : src/follow_reference_node.cpp.s
 
 src/translator_node.o: src/translator_node.cpp.o
@@ -320,7 +320,7 @@ src/translator_node.o: src/translator_node.cpp.o
 
 # target to build an object file
 src/translator_node.cpp.o:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/translator_node.dir/build.make ros_imc_broker/CMakeFiles/translator_node.dir/src/translator_node.cpp.o
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/translator_node.dir/build.make ros_imc_broker/CMakeFiles/translator_node.dir/src/translator_node.cpp.o
 .PHONY : src/translator_node.cpp.o
 
 src/translator_node.i: src/translator_node.cpp.i
@@ -329,7 +329,7 @@ src/translator_node.i: src/translator_node.cpp.i
 
 # target to preprocess a source file
 src/translator_node.cpp.i:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/translator_node.dir/build.make ros_imc_broker/CMakeFiles/translator_node.dir/src/translator_node.cpp.i
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/translator_node.dir/build.make ros_imc_broker/CMakeFiles/translator_node.dir/src/translator_node.cpp.i
 .PHONY : src/translator_node.cpp.i
 
 src/translator_node.s: src/translator_node.cpp.s
@@ -338,7 +338,7 @@ src/translator_node.s: src/translator_node.cpp.s
 
 # target to generate assembly for a file
 src/translator_node.cpp.s:
-	cd /home/tore/ws/build && $(MAKE) -f ros_imc_broker/CMakeFiles/translator_node.dir/build.make ros_imc_broker/CMakeFiles/translator_node.dir/src/translator_node.cpp.s
+	cd /home/tore/software/dora/build && $(MAKE) -f ros_imc_broker/CMakeFiles/translator_node.dir/build.make ros_imc_broker/CMakeFiles/translator_node.dir/src/translator_node.cpp.s
 .PHONY : src/translator_node.cpp.s
 
 # Help Target
@@ -381,6 +381,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tore/ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tore/software/dora/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -43,448 +43,448 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tore/ws/src
+CMAKE_SOURCE_DIR = /home/tore/software/dora/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tore/ws/build
+CMAKE_BINARY_DIR = /home/tore/software/dora/build
 
 # Utility rule file for imc_ros_msgs_generate_messages_py.
 
 # Include the progress variables for this target.
 include imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py.dir/progress.make
 
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py
 
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG imc_ros_msgs/Salinity"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG imc_ros_msgs/Temperature"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG imc_ros_msgs/TrexToken"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG imc_ros_msgs/EntityState"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG imc_ros_msgs/SimulatedState"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG imc_ros_msgs/EntityList"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG imc_ros_msgs/DissolvedOrganicMatter"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG imc_ros_msgs/EstimatedState"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG imc_ros_msgs/Chlorophyll"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/share/std_msgs/msg/Int32.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG imc_ros_msgs/PlanControlState"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG imc_ros_msgs/Temperature"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG imc_ros_msgs/DissolvedOrganicMatter"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/share/std_msgs/msg/Int32.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG imc_ros_msgs/PlanControlState"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG imc_ros_msgs/TrexAttribute"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG imc_ros_msgs/OperationalLimits"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG imc_ros_msgs/Abort"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py: /home/tore/ws/src/imc_ros_msgs/msg/Abort.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG imc_ros_msgs/Abort"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/Abort.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG imc_ros_msgs/TrexOperation"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python from MSG imc_ros_msgs/TrexOperation"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py: /home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python from MSG imc_ros_msgs/VehicleMedium"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py: /home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python from MSG imc_ros_msgs/EntityState"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python from MSG imc_ros_msgs/OperationalLimits"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /home/tore/ws/src/imc_ros_msgs/msg/Reference.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python from MSG imc_ros_msgs/Reference"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/Reference.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python from MSG imc_ros_msgs/IridiumMsgTx"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /home/tore/ws/src/imc_ros_msgs/msg/Reference.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python from MSG imc_ros_msgs/FollowRefState"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python from MSG imc_ros_msgs/NavigationUncertainty"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Python from MSG imc_ros_msgs/TrexAttribute"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Python from MSG imc_ros_msgs/SimulatedState"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python from MSG imc_ros_msgs/EntityList"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python from MSG imc_ros_msgs/DesiredZ"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python from MSG imc_ros_msgs/YoYo"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python from MSG imc_ros_msgs/Reference"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Python from MSG imc_ros_msgs/NavigationUncertainty"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py: /home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Python from MSG imc_ros_msgs/TrexToken"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python from MSG imc_ros_msgs/EntityActivationState"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py: /home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python from MSG imc_ros_msgs/StopManeuver"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Python from MSG imc_ros_msgs/Header"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/Header.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Python from MSG imc_ros_msgs/EntityActivationState"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Python from MSG imc_ros_msgs/FollowReference"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Python from MSG imc_ros_msgs/GpsFix"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py: /home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Python from MSG imc_ros_msgs/Heartbeat"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Python from MSG imc_ros_msgs/Depth"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Python from MSG imc_ros_msgs/IridiumMsgTx"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Python from MSG imc_ros_msgs/FollowRefState"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py: /home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Python from MSG imc_ros_msgs/VehicleMedium"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Python from MSG imc_ros_msgs/FollowReference"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Python from MSG imc_ros_msgs/OpticalBackscatter"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Python from MSG imc_ros_msgs/Chlorophyll"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py: /home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Python from MSG imc_ros_msgs/StopManeuver"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py: /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Python from MSG imc_ros_msgs/DesiredSpeed"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Python from MSG imc_ros_msgs/EstimatedState"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Python from MSG imc_ros_msgs/Header"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Python from MSG imc_ros_msgs/GpsFix"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Python from MSG imc_ros_msgs/YoYo"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /home/tore/ws/src/imc_ros_msgs/msg/Depth.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Python from MSG imc_ros_msgs/Depth"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/Depth.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Python from MSG imc_ros_msgs/Salinity"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py: /home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Python from MSG imc_ros_msgs/DesiredSpeed"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Python from MSG imc_ros_msgs/Heartbeat"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Python from MSG imc_ros_msgs/DesiredZ"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Python from MSG imc_ros_msgs/OpticalBackscatter"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg
 
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py
-/home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Python msg __init__.py for imc_ros_msgs"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg --initpy
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py
+/home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Python msg __init__.py for imc_ros_msgs"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg --initpy
 
 imc_ros_msgs_generate_messages_py: imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py
-imc_ros_msgs_generate_messages_py: /home/tore/ws/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Temperature.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityState.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityList.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EstimatedState.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_PlanControlState.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DissolvedOrganicMatter.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexAttribute.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Abort.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexOperation.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_VehicleMedium.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OperationalLimits.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_IridiumMsgTx.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_NavigationUncertainty.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_SimulatedState.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredZ.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Reference.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_TrexToken.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_StopManeuver.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_EntityActivationState.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_GpsFix.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Depth.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowRefState.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_FollowReference.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Chlorophyll.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_DesiredSpeed.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Header.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_YoYo.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Salinity.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_Heartbeat.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/_OpticalBackscatter.py
+imc_ros_msgs_generate_messages_py: /home/tore/software/dora/devel/lib/python2.7/dist-packages/imc_ros_msgs/msg/__init__.py
 imc_ros_msgs_generate_messages_py: imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py.dir/build.make
 
 .PHONY : imc_ros_msgs_generate_messages_py
@@ -495,10 +495,10 @@ imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py.dir/build: imc_ros_msg
 .PHONY : imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py.dir/build
 
 imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py.dir/clean:
-	cd /home/tore/ws/build/imc_ros_msgs && $(CMAKE_COMMAND) -P CMakeFiles/imc_ros_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/tore/software/dora/build/imc_ros_msgs && $(CMAKE_COMMAND) -P CMakeFiles/imc_ros_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py.dir/clean
 
 imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py.dir/depend:
-	cd /home/tore/ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tore/ws/src /home/tore/ws/src/imc_ros_msgs /home/tore/ws/build /home/tore/ws/build/imc_ros_msgs /home/tore/ws/build/imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tore/software/dora/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tore/software/dora/src /home/tore/software/dora/src/imc_ros_msgs /home/tore/software/dora/build /home/tore/software/dora/build/imc_ros_msgs /home/tore/software/dora/build/imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_py.dir/depend
 

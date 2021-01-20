@@ -1,8 +1,8 @@
-# Install script for directory: /home/tore/ws/src/ice_drift/generator
+# Install script for directory: /home/tore/software/dora/src/ice_drift/generator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tore/ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tore/software/dora/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tore/ws/build/ice_drift/generator/catkin_generated/installspace/generator.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tore/software/dora/build/ice_drift/generator/catkin_generated/installspace/generator.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/generator/cmake" TYPE FILE FILES
-    "/home/tore/ws/build/ice_drift/generator/catkin_generated/installspace/generatorConfig.cmake"
-    "/home/tore/ws/build/ice_drift/generator/catkin_generated/installspace/generatorConfig-version.cmake"
+    "/home/tore/software/dora/build/ice_drift/generator/catkin_generated/installspace/generatorConfig.cmake"
+    "/home/tore/software/dora/build/ice_drift/generator/catkin_generated/installspace/generatorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/generator" TYPE FILE FILES "/home/tore/ws/src/ice_drift/generator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/generator" TYPE FILE FILES "/home/tore/software/dora/src/ice_drift/generator/package.xml")
 endif()
 

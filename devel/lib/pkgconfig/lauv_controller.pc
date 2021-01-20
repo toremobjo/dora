@@ -1,4 +1,4 @@
-prefix=/home/tore/ws/devel
+prefix=/home/tore/software/dora/devel
 
 Name: lauv_controller
 Description: Description of lauv_controller

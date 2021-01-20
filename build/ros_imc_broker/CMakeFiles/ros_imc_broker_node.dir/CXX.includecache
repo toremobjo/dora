@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tore/ws/devel/include/ros_imc_broker/BrokerParamsConfig.h
+/home/tore/software/dora/devel/include/ros_imc_broker/BrokerParamsConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/ByteBuffer.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/ByteBuffer.hpp
 cstdlib
 -
 ostream
@@ -32,23 +32,23 @@ ostream
 cstring
 -
 Config.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Config.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Config.hpp
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/ByteCopy.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/ByteCopy.hpp
 iostream
 -
 cstring
 -
 Config.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Config.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Config.hpp
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/CRC16.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/CRC16.hpp
 cstddef
 -
 Config.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Config.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Config.hpp
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Clock.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Clock.hpp
 ctime
 -
 cstring
@@ -56,7 +56,7 @@ cstring
 cerrno
 -
 Config.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Config.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Config.hpp
 windows.h
 -
 pthread.h
@@ -64,21 +64,21 @@ pthread.h
 sys/time.h
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Config.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Config.hpp
 Platform.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Platform.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Platform.hpp
 stdint.h
 -
 windows.h
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Exceptions.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Exceptions.hpp
 stdexcept
 -
 String.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/String.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/String.hpp
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Factory.cpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Factory.cpp
 iostream
 -
 iomanip
@@ -88,11 +88,11 @@ cstdio
 map
 -
 String.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/String.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/String.hpp
 Exceptions.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Exceptions.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Exceptions.hpp
 Factory.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Factory.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Factory.hpp
 IMC/Spec/AllMessages.hpp
 -
 IMC/Spec/Factory.xdef
@@ -102,33 +102,33 @@ IMC/Spec/Factory.xdef
 IMC/Spec/Factory.xdef
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Factory.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Factory.hpp
 string
 -
 vector
 -
 Config.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Config.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Config.hpp
 Message.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Message.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Message.hpp
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/InlineMessage.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/InlineMessage.hpp
 cstddef
 -
 stdexcept
 -
 ByteCopy.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/ByteCopy.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/ByteCopy.hpp
 Message.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Message.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Message.hpp
 Exceptions.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Exceptions.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Exceptions.hpp
 Serialization.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Serialization.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Serialization.hpp
 JSON.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/JSON.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/JSON.hpp
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/JSON.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/JSON.hpp
 ostream
 -
 vector
@@ -136,11 +136,11 @@ vector
 string
 -
 Config.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Config.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Config.hpp
 String.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/String.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/String.hpp
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Message.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Message.hpp
 iomanip
 -
 cstring
@@ -148,21 +148,21 @@ cstring
 sstream
 -
 Config.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Config.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Config.hpp
 Message.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Message.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Message.hpp
 JSON.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/JSON.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/JSON.hpp
 Exceptions.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Exceptions.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Exceptions.hpp
 Clock.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Clock.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Clock.hpp
 IMC/Spec/Constants.hpp
 -
 IMC/Spec/Header.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/MessageList.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/MessageList.hpp
 cstddef
 -
 stdexcept
@@ -170,33 +170,33 @@ stdexcept
 vector
 -
 Message.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Message.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Message.hpp
 Factory.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Factory.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Factory.hpp
 Serialization.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Serialization.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Serialization.hpp
 JSON.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/JSON.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/JSON.hpp
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Packet.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Packet.hpp
 cstddef
 -
 ostream
 -
 Config.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Config.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Config.hpp
 CRC16.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/CRC16.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/CRC16.hpp
 ByteCopy.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/ByteCopy.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/ByteCopy.hpp
 ByteBuffer.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/ByteBuffer.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/ByteBuffer.hpp
 Message.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Message.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Message.hpp
 Serialization.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Serialization.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Serialization.hpp
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Parser.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Parser.hpp
 vector
 -
 queue
@@ -206,13 +206,13 @@ set
 memory
 -
 Message.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Message.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Message.hpp
 Packet.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Packet.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Packet.hpp
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Platform.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Platform.hpp
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Serialization.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Serialization.hpp
 istream
 -
 vector
@@ -224,17 +224,17 @@ ostream
 istream
 -
 ByteCopy.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/ByteCopy.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/ByteCopy.hpp
 Exceptions.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Exceptions.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Exceptions.hpp
 Message.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Message.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Message.hpp
 Factory.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/Factory.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/Factory.hpp
 CRC16.hpp
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/CRC16.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/CRC16.hpp
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Base/String.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Base/String.hpp
 cstring
 -
 string
@@ -252,7 +252,7 @@ cstdarg
 IMC/Base/Config.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Abort.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Abort.hpp
 ostream
 -
 string
@@ -276,7 +276,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Aborted.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Aborted.hpp
 ostream
 -
 string
@@ -300,7 +300,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Acceleration.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Acceleration.hpp
 ostream
 -
 string
@@ -324,7 +324,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/AcousticLink.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/AcousticLink.hpp
 ostream
 -
 string
@@ -348,7 +348,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/AcousticMessage.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/AcousticMessage.hpp
 ostream
 -
 string
@@ -372,7 +372,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/AcousticOperation.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/AcousticOperation.hpp
 ostream
 -
 string
@@ -396,7 +396,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/AcousticSystems.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/AcousticSystems.hpp
 ostream
 -
 string
@@ -420,7 +420,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/AcousticSystemsQuery.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/AcousticSystemsQuery.hpp
 ostream
 -
 string
@@ -444,7 +444,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/AirSaturation.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/AirSaturation.hpp
 ostream
 -
 string
@@ -468,7 +468,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Airflow.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Airflow.hpp
 ostream
 -
 string
@@ -492,7 +492,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Alignment.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Alignment.hpp
 ostream
 -
 string
@@ -518,7 +518,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/AlignmentState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/AlignmentState.hpp
 ostream
 -
 string
@@ -542,7 +542,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/AllMessages.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/AllMessages.hpp
 IMC/Spec/EntityState.hpp
 -
 IMC/Spec/QueryEntityState.hpp
@@ -1136,7 +1136,7 @@ IMC/Spec/FluorescentDissolvedOrganicMatter.hpp
 IMC/Spec/IridiumMsgTxExtended.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/AllocatedControlTorques.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/AllocatedControlTorques.hpp
 ostream
 -
 string
@@ -1160,7 +1160,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/AngularVelocity.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/AngularVelocity.hpp
 ostream
 -
 string
@@ -1184,7 +1184,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Announce.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Announce.hpp
 ostream
 -
 string
@@ -1208,7 +1208,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/AnnounceService.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/AnnounceService.hpp
 ostream
 -
 string
@@ -1232,7 +1232,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ApmStatus.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ApmStatus.hpp
 ostream
 -
 string
@@ -1256,527 +1256,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/AutonomousSection.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-IMC/Spec/PolygonVertex.hpp
--
-IMC/Spec/Maneuver.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/AutopilotMode.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/BeamConfig.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Bitfields.hpp
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Brake.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ButtonEvent.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/CacheControl.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Calibration.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/CameraZoom.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/CcuEvent.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Chlorophyll.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ClockControl.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/CloseSession.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Collision.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ColoredDissolvedOrganicMatter.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/CommsRelay.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-IMC/Spec/Maneuver.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/CompassCalibration.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-IMC/Spec/Maneuver.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/CompressedHistory.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/CompressedImage.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Conductivity.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Constants.hpp
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ControlCommand.hpp
-IMC/Base/Message.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ControlLoops.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ControlParcel.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/CoverArea.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/AutonomousSection.hpp
 ostream
 -
 string
@@ -1804,7 +1284,7 @@ IMC/Spec/PolygonVertex.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/CpuUsage.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/AutopilotMode.hpp
 ostream
 -
 string
@@ -1828,7 +1308,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/CreateSession.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/BeamConfig.hpp
 ostream
 -
 string
@@ -1852,7 +1332,9 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/CrudeOil.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Bitfields.hpp
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Brake.hpp
 ostream
 -
 string
@@ -1876,7 +1358,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Current.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ButtonEvent.hpp
 ostream
 -
 string
@@ -1900,33 +1382,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/CustomManeuver.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-IMC/Spec/Maneuver.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DataSanity.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/CacheControl.hpp
 ostream
 -
 string
@@ -1950,7 +1406,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Depth.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Calibration.hpp
 ostream
 -
 string
@@ -1974,7 +1430,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DepthOffset.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/CameraZoom.hpp
 ostream
 -
 string
@@ -1998,7 +1454,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DesiredControl.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/CcuEvent.hpp
 ostream
 -
 string
@@ -2022,33 +1478,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DesiredHeading.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-IMC/Spec/ControlCommand.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DesiredHeadingRate.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Chlorophyll.hpp
 ostream
 -
 string
@@ -2072,7 +1502,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DesiredLinearState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ClockControl.hpp
 ostream
 -
 string
@@ -2096,137 +1526,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DesiredPath.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-IMC/Spec/ControlCommand.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DesiredPitch.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-IMC/Spec/ControlCommand.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DesiredRoll.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-IMC/Spec/ControlCommand.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DesiredSpeed.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-IMC/Spec/ControlCommand.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DesiredThrottle.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-IMC/Spec/ControlCommand.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DesiredVelocity.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/CloseSession.hpp
 ostream
 -
 string
@@ -2250,7 +1550,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DesiredVerticalRate.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Collision.hpp
 ostream
 -
 string
@@ -2274,33 +1574,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DesiredZ.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-IMC/Spec/ControlCommand.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DevCalibrationControl.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ColoredDissolvedOrganicMatter.hpp
 ostream
 -
 string
@@ -2324,103 +1598,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DevCalibrationState.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DevDataBinary.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DevDataText.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DeviceState.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Dislodge.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/CommsRelay.hpp
 ostream
 -
 string
@@ -2446,7 +1624,33 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DissolvedOrganicMatter.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/CompassCalibration.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+IMC/Spec/Maneuver.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/CompressedHistory.hpp
 ostream
 -
 string
@@ -2470,7 +1674,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DissolvedOxygen.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/CompressedImage.hpp
 ostream
 -
 string
@@ -2494,7 +1698,803 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Distance.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Conductivity.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Constants.hpp
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ControlCommand.hpp
+IMC/Base/Message.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ControlLoops.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ControlParcel.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/CoverArea.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+IMC/Spec/PolygonVertex.hpp
+-
+IMC/Spec/Maneuver.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/CpuUsage.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/CreateSession.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/CrudeOil.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Current.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/CustomManeuver.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+IMC/Spec/Maneuver.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DataSanity.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Depth.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DepthOffset.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DesiredControl.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DesiredHeading.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+IMC/Spec/ControlCommand.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DesiredHeadingRate.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DesiredLinearState.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DesiredPath.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+IMC/Spec/ControlCommand.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DesiredPitch.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+IMC/Spec/ControlCommand.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DesiredRoll.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+IMC/Spec/ControlCommand.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DesiredSpeed.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+IMC/Spec/ControlCommand.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DesiredThrottle.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+IMC/Spec/ControlCommand.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DesiredVelocity.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DesiredVerticalRate.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DesiredZ.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+IMC/Spec/ControlCommand.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DevCalibrationControl.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DevCalibrationState.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DevDataBinary.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DevDataText.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DeviceState.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Dislodge.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+IMC/Spec/Maneuver.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DissolvedOrganicMatter.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DissolvedOxygen.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Distance.hpp
 ostream
 -
 string
@@ -2522,7 +2522,7 @@ IMC/Spec/DeviceState.hpp
 IMC/Spec/BeamConfig.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Drop.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Drop.hpp
 ostream
 -
 string
@@ -2548,7 +2548,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DvlRejection.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DvlRejection.hpp
 ostream
 -
 string
@@ -2572,7 +2572,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/DynamicsSimParam.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/DynamicsSimParam.hpp
 ostream
 -
 string
@@ -2596,7 +2596,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Elevator.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Elevator.hpp
 ostream
 -
 string
@@ -2622,7 +2622,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/EmergencyControl.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/EmergencyControl.hpp
 ostream
 -
 string
@@ -2648,7 +2648,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/PlanSpecification.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/EmergencyControlState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/EmergencyControlState.hpp
 ostream
 -
 string
@@ -2672,7 +2672,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/EntityActivationState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/EntityActivationState.hpp
 ostream
 -
 string
@@ -2696,7 +2696,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/EntityInfo.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/EntityInfo.hpp
 ostream
 -
 string
@@ -2720,7 +2720,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/EntityList.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/EntityList.hpp
 ostream
 -
 string
@@ -2744,7 +2744,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/EntityMonitoringState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/EntityMonitoringState.hpp
 ostream
 -
 string
@@ -2768,7 +2768,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/EntityParameter.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/EntityParameter.hpp
 ostream
 -
 string
@@ -2792,7 +2792,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/EntityParameters.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/EntityParameters.hpp
 ostream
 -
 string
@@ -2818,7 +2818,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/EntityParameter.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/EntityState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/EntityState.hpp
 ostream
 -
 string
@@ -2842,9 +2842,9 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Enumerations.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Enumerations.hpp
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/EstimatedState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/EstimatedState.hpp
 ostream
 -
 string
@@ -2868,7 +2868,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/EstimatedStreamVelocity.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/EstimatedStreamVelocity.hpp
 ostream
 -
 string
@@ -2892,7 +2892,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/EulerAngles.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/EulerAngles.hpp
 ostream
 -
 string
@@ -2916,7 +2916,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/EulerAnglesDelta.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/EulerAnglesDelta.hpp
 ostream
 -
 string
@@ -2940,7 +2940,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Event.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Event.hpp
 ostream
 -
 string
@@ -2964,7 +2964,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ExtendedRSSI.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ExtendedRSSI.hpp
 ostream
 -
 string
@@ -2988,7 +2988,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ExternalNavData.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ExternalNavData.hpp
 ostream
 -
 string
@@ -3014,9 +3014,9 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/EstimatedState.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Factory.xdef
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Factory.xdef
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FineOil.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FineOil.hpp
 ostream
 -
 string
@@ -3040,7 +3040,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Fluorescein.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Fluorescein.hpp
 ostream
 -
 string
@@ -3064,7 +3064,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FluorescentDissolvedOrganicMatter.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FluorescentDissolvedOrganicMatter.hpp
 ostream
 -
 string
@@ -3088,7 +3088,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FollowPath.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FollowPath.hpp
 ostream
 -
 string
@@ -3116,7 +3116,7 @@ IMC/Spec/PathPoint.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FollowPoint.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FollowPoint.hpp
 ostream
 -
 string
@@ -3142,7 +3142,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FollowRefState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FollowRefState.hpp
 ostream
 -
 string
@@ -3168,7 +3168,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Reference.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FollowReference.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FollowReference.hpp
 ostream
 -
 string
@@ -3194,7 +3194,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FollowSystem.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FollowSystem.hpp
 ostream
 -
 string
@@ -3218,7 +3218,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FollowTrajectory.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FollowTrajectory.hpp
 ostream
 -
 string
@@ -3246,7 +3246,7 @@ IMC/Spec/TrajectoryPoint.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FormCtrlParam.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FormCtrlParam.hpp
 ostream
 -
 string
@@ -3270,7 +3270,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FormState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FormState.hpp
 ostream
 -
 string
@@ -3294,7 +3294,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Formation.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Formation.hpp
 ostream
 -
 string
@@ -3320,7 +3320,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/VehicleFormationParticipant.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FormationControlParams.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FormationControlParams.hpp
 ostream
 -
 string
@@ -3344,7 +3344,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FormationEval.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FormationEval.hpp
 ostream
 -
 string
@@ -3368,7 +3368,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FormationEvaluation.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FormationEvaluation.hpp
 ostream
 -
 string
@@ -3394,7 +3394,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/FormationControlParams.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FormationMonitor.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FormationMonitor.hpp
 ostream
 -
 string
@@ -3420,7 +3420,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/RelativeState.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FormationParameters.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FormationParameters.hpp
 ostream
 -
 string
@@ -3446,7 +3446,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/VehicleFormationParticipant.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FormationPlanExecution.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FormationPlanExecution.hpp
 ostream
 -
 string
@@ -3472,7 +3472,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FormationState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FormationState.hpp
 ostream
 -
 string
@@ -3496,7 +3496,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/FuelLevel.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/FuelLevel.hpp
 ostream
 -
 string
@@ -3520,7 +3520,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/GetImageCoords.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/GetImageCoords.hpp
 ostream
 -
 string
@@ -3544,7 +3544,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/GetOperationalLimits.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/GetOperationalLimits.hpp
 ostream
 -
 string
@@ -3568,7 +3568,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/GetParametersXml.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/GetParametersXml.hpp
 ostream
 -
 string
@@ -3592,7 +3592,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/GetWorldCoordinates.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/GetWorldCoordinates.hpp
 ostream
 -
 string
@@ -3616,7 +3616,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Goto.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Goto.hpp
 ostream
 -
 string
@@ -3642,7 +3642,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/GpioState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/GpioState.hpp
 ostream
 -
 string
@@ -3666,7 +3666,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/GpioStateGet.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/GpioStateGet.hpp
 ostream
 -
 string
@@ -3690,7 +3690,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/GpioStateSet.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/GpioStateSet.hpp
 ostream
 -
 string
@@ -3714,7 +3714,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/GpsFix.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/GpsFix.hpp
 ostream
 -
 string
@@ -3738,7 +3738,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/GpsFixRejection.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/GpsFixRejection.hpp
 ostream
 -
 string
@@ -3762,7 +3762,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/GpsFixRtk.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/GpsFixRtk.hpp
 ostream
 -
 string
@@ -3786,7 +3786,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/GpsNavData.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/GpsNavData.hpp
 ostream
 -
 string
@@ -3810,7 +3810,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/GroundVelocity.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/GroundVelocity.hpp
 ostream
 -
 string
@@ -3834,7 +3834,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/GroupMembershipState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/GroupMembershipState.hpp
 ostream
 -
 string
@@ -3858,7 +3858,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/GroupStreamVelocity.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/GroupStreamVelocity.hpp
 ostream
 -
 string
@@ -3882,11 +3882,11 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Header.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Header.hpp
 IMC/Base/Config.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Heartbeat.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Heartbeat.hpp
 ostream
 -
 string
@@ -3910,7 +3910,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/HistoricCTD.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/HistoricCTD.hpp
 ostream
 -
 string
@@ -3934,7 +3934,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/HistoricData.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/HistoricData.hpp
 ostream
 -
 string
@@ -3960,7 +3960,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/RemoteData.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/HistoricDataQuery.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/HistoricDataQuery.hpp
 ostream
 -
 string
@@ -3986,7 +3986,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/HistoricData.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/HistoricEvent.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/HistoricEvent.hpp
 ostream
 -
 string
@@ -4010,7 +4010,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/HistoricSample.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/HistoricSample.hpp
 ostream
 -
 string
@@ -4036,7 +4036,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/RemoteData.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/HistoricSonarData.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/HistoricSonarData.hpp
 ostream
 -
 string
@@ -4060,7 +4060,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/HistoricTelemetry.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/HistoricTelemetry.hpp
 ostream
 -
 string
@@ -4084,33 +4084,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/IdleManeuver.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-IMC/Spec/Maneuver.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ImageTracking.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/IdleManeuver.hpp
 ostream
 -
 string
@@ -4136,175 +4110,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ImageTxSettings.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/IndicatedSpeed.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/IoEvent.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/IridiumMsgRx.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/IridiumMsgTx.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/IridiumMsgTxExtended.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/IridiumTxStatus.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Land.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ImageTracking.hpp
 ostream
 -
 string
@@ -4330,7 +4136,175 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Launch.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ImageTxSettings.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/IndicatedSpeed.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/IoEvent.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/IridiumMsgRx.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/IridiumMsgTx.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/IridiumMsgTxExtended.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/IridiumTxStatus.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Land.hpp
 ostream
 -
 string
@@ -4356,7 +4330,33 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LblBeacon.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Launch.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+IMC/Spec/Maneuver.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LblBeacon.hpp
 ostream
 -
 string
@@ -4380,7 +4380,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LblConfig.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LblConfig.hpp
 ostream
 -
 string
@@ -4406,7 +4406,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/LblBeacon.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LblEstimate.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LblEstimate.hpp
 ostream
 -
 string
@@ -4432,7 +4432,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/LblBeacon.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LblRange.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LblRange.hpp
 ostream
 -
 string
@@ -4456,7 +4456,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LblRangeAcceptance.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LblRangeAcceptance.hpp
 ostream
 -
 string
@@ -4480,7 +4480,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LcdControl.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LcdControl.hpp
 ostream
 -
 string
@@ -4504,7 +4504,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LeaderState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LeaderState.hpp
 ostream
 -
 string
@@ -4528,7 +4528,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LeakSimulation.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LeakSimulation.hpp
 ostream
 -
 string
@@ -4552,7 +4552,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LedBrightness.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LedBrightness.hpp
 ostream
 -
 string
@@ -4576,7 +4576,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LinkLatency.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LinkLatency.hpp
 ostream
 -
 string
@@ -4600,7 +4600,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LinkLevel.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LinkLevel.hpp
 ostream
 -
 string
@@ -4624,7 +4624,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LogBookControl.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LogBookControl.hpp
 ostream
 -
 string
@@ -4650,7 +4650,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/LogBookEntry.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LogBookEntry.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LogBookEntry.hpp
 ostream
 -
 string
@@ -4674,7 +4674,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LoggingControl.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LoggingControl.hpp
 ostream
 -
 string
@@ -4698,7 +4698,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Loiter.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Loiter.hpp
 ostream
 -
 string
@@ -4724,7 +4724,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/LowLevelControl.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/LowLevelControl.hpp
 ostream
 -
 string
@@ -4752,7 +4752,7 @@ IMC/Spec/ControlCommand.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/MagneticField.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/MagneticField.hpp
 ostream
 -
 string
@@ -4776,11 +4776,11 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Maneuver.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Maneuver.hpp
 IMC/Base/Message.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ManeuverControlState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ManeuverControlState.hpp
 ostream
 -
 string
@@ -4804,7 +4804,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Map.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Map.hpp
 ostream
 -
 string
@@ -4830,7 +4830,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/MapFeature.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/MapFeature.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/MapFeature.hpp
 ostream
 -
 string
@@ -4856,7 +4856,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/MapPoint.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/MapPoint.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/MapPoint.hpp
 ostream
 -
 string
@@ -4880,7 +4880,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/MessagePart.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/MessagePart.hpp
 ostream
 -
 string
@@ -4904,7 +4904,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/MonitorEntityState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/MonitorEntityState.hpp
 ostream
 -
 string
@@ -4928,7 +4928,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/MsgList.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/MsgList.hpp
 ostream
 -
 string
@@ -4952,7 +4952,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/NavigationData.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/NavigationData.hpp
 ostream
 -
 string
@@ -4976,7 +4976,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/NavigationUncertainty.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/NavigationUncertainty.hpp
 ostream
 -
 string
@@ -5000,7 +5000,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/NeptusBlob.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/NeptusBlob.hpp
 ostream
 -
 string
@@ -5024,7 +5024,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/OperationalLimits.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/OperationalLimits.hpp
 ostream
 -
 string
@@ -5048,7 +5048,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/OpticalBackscatter.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/OpticalBackscatter.hpp
 ostream
 -
 string
@@ -5072,7 +5072,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PH.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PH.hpp
 ostream
 -
 string
@@ -5096,7 +5096,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PWM.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PWM.hpp
 ostream
 -
 string
@@ -5120,7 +5120,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ParametersXml.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ParametersXml.hpp
 ostream
 -
 string
@@ -5144,7 +5144,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PathControlState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PathControlState.hpp
 ostream
 -
 string
@@ -5168,7 +5168,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PathPoint.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PathPoint.hpp
 ostream
 -
 string
@@ -5192,7 +5192,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Phycocyanin.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Phycocyanin.hpp
 ostream
 -
 string
@@ -5216,7 +5216,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Phycoerythrin.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Phycoerythrin.hpp
 ostream
 -
 string
@@ -5240,7 +5240,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PlanControl.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PlanControl.hpp
 ostream
 -
 string
@@ -5264,7 +5264,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PlanControlState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PlanControlState.hpp
 ostream
 -
 string
@@ -5288,7 +5288,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PlanDB.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PlanDB.hpp
 ostream
 -
 string
@@ -5312,7 +5312,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PlanDBInformation.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PlanDBInformation.hpp
 ostream
 -
 string
@@ -5336,7 +5336,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PlanDBState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PlanDBState.hpp
 ostream
 -
 string
@@ -5362,7 +5362,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/PlanDBInformation.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PlanGeneration.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PlanGeneration.hpp
 ostream
 -
 string
@@ -5386,7 +5386,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PlanManeuver.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PlanManeuver.hpp
 ostream
 -
 string
@@ -5412,7 +5412,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PlanSpecification.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PlanSpecification.hpp
 ostream
 -
 string
@@ -5442,7 +5442,7 @@ IMC/Spec/PlanManeuver.hpp
 IMC/Spec/PlanTransition.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PlanStatistics.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PlanStatistics.hpp
 ostream
 -
 string
@@ -5466,7 +5466,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PlanTransition.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PlanTransition.hpp
 ostream
 -
 string
@@ -5490,7 +5490,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PlanVariable.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PlanVariable.hpp
 ostream
 -
 string
@@ -5514,7 +5514,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PolygonVertex.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PolygonVertex.hpp
 ostream
 -
 string
@@ -5538,7 +5538,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PopEntityParameters.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PopEntityParameters.hpp
 ostream
 -
 string
@@ -5562,7 +5562,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PopUp.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PopUp.hpp
 ostream
 -
 string
@@ -5588,7 +5588,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PowerChannelControl.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PowerChannelControl.hpp
 ostream
 -
 string
@@ -5612,7 +5612,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PowerChannelState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PowerChannelState.hpp
 ostream
 -
 string
@@ -5636,7 +5636,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PowerOperation.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PowerOperation.hpp
 ostream
 -
 string
@@ -5660,7 +5660,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Pressure.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Pressure.hpp
 ostream
 -
 string
@@ -5684,7 +5684,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Pulse.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Pulse.hpp
 ostream
 -
 string
@@ -5708,7 +5708,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PulseDetectionControl.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PulseDetectionControl.hpp
 ostream
 -
 string
@@ -5732,7 +5732,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/PushEntityParameters.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/PushEntityParameters.hpp
 ostream
 -
 string
@@ -5756,7 +5756,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/QueryEntityActivationState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/QueryEntityActivationState.hpp
 ostream
 -
 string
@@ -5780,7 +5780,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/QueryEntityInfo.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/QueryEntityInfo.hpp
 ostream
 -
 string
@@ -5804,7 +5804,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/QueryEntityParameters.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/QueryEntityParameters.hpp
 ostream
 -
 string
@@ -5828,7 +5828,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/QueryEntityState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/QueryEntityState.hpp
 ostream
 -
 string
@@ -5852,7 +5852,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/QueryLedBrightness.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/QueryLedBrightness.hpp
 ostream
 -
 string
@@ -5876,7 +5876,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/QueryPowerChannelState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/QueryPowerChannelState.hpp
 ostream
 -
 string
@@ -5900,7 +5900,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/RSSI.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/RSSI.hpp
 ostream
 -
 string
@@ -5924,7 +5924,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Redox.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Redox.hpp
 ostream
 -
 string
@@ -5948,7 +5948,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Reference.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Reference.hpp
 ostream
 -
 string
@@ -5976,7 +5976,7 @@ IMC/Spec/DesiredSpeed.hpp
 IMC/Spec/DesiredZ.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/RegisterManeuver.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/RegisterManeuver.hpp
 ostream
 -
 string
@@ -6000,7 +6000,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/RelativeHumidity.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/RelativeHumidity.hpp
 ostream
 -
 string
@@ -6024,7 +6024,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/RelativeState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/RelativeState.hpp
 ostream
 -
 string
@@ -6048,7 +6048,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/RemoteActions.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/RemoteActions.hpp
 ostream
 -
 string
@@ -6072,7 +6072,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/RemoteActionsRequest.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/RemoteActionsRequest.hpp
 ostream
 -
 string
@@ -6096,7 +6096,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/RemoteCommand.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/RemoteCommand.hpp
 ostream
 -
 string
@@ -6122,11 +6122,11 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/RemoteData.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/RemoteData.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/RemoteData.hpp
 IMC/Base/Message.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/RemoteSensorInfo.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/RemoteSensorInfo.hpp
 ostream
 -
 string
@@ -6150,7 +6150,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/RemoteState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/RemoteState.hpp
 ostream
 -
 string
@@ -6174,7 +6174,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ReplayControl.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ReplayControl.hpp
 ostream
 -
 string
@@ -6198,7 +6198,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ReportControl.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ReportControl.hpp
 ostream
 -
 string
@@ -6222,7 +6222,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ReportedState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ReportedState.hpp
 ostream
 -
 string
@@ -6246,7 +6246,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/RestartSystem.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/RestartSystem.hpp
 ostream
 -
 string
@@ -6270,7 +6270,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/RhodamineDye.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/RhodamineDye.hpp
 ostream
 -
 string
@@ -6294,33 +6294,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Rows.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-IMC/Spec/Maneuver.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/RowsCoverage.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Rows.hpp
 ostream
 -
 string
@@ -6346,55 +6320,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Rpm.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Salinity.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Sample.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/RowsCoverage.hpp
 ostream
 -
 string
@@ -6420,7 +6346,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SaveEntityParameters.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Rpm.hpp
 ostream
 -
 string
@@ -6444,7 +6370,31 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ScheduledGoto.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Salinity.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Sample.hpp
 ostream
 -
 string
@@ -6470,7 +6420,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/ServoPosition.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SaveEntityParameters.hpp
 ostream
 -
 string
@@ -6494,7 +6444,33 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SessionKeepAlive.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ScheduledGoto.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+IMC/Spec/Maneuver.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/ServoPosition.hpp
 ostream
 -
 string
@@ -6518,7 +6494,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SessionStatus.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SessionKeepAlive.hpp
 ostream
 -
 string
@@ -6542,7 +6518,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SessionSubscription.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SessionStatus.hpp
 ostream
 -
 string
@@ -6566,7 +6542,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SetControlSurfaceDeflection.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SessionSubscription.hpp
 ostream
 -
 string
@@ -6590,7 +6566,31 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SetEntityParameters.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SetControlSurfaceDeflection.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SetEntityParameters.hpp
 ostream
 -
 string
@@ -6616,7 +6616,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/EntityParameter.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SetImageCoords.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SetImageCoords.hpp
 ostream
 -
 string
@@ -6640,7 +6640,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SetLedBrightness.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SetLedBrightness.hpp
 ostream
 -
 string
@@ -6664,7 +6664,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SetPWM.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SetPWM.hpp
 ostream
 -
 string
@@ -6688,7 +6688,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SetServoPosition.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SetServoPosition.hpp
 ostream
 -
 string
@@ -6712,7 +6712,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SetThrusterActuation.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SetThrusterActuation.hpp
 ostream
 -
 string
@@ -6736,7 +6736,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SimulatedState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SimulatedState.hpp
 ostream
 -
 string
@@ -6760,7 +6760,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Sms.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Sms.hpp
 ostream
 -
 string
@@ -6784,7 +6784,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SmsRx.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SmsRx.hpp
 ostream
 -
 string
@@ -6808,7 +6808,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SmsState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SmsState.hpp
 ostream
 -
 string
@@ -6832,7 +6832,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SmsTx.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SmsTx.hpp
 ostream
 -
 string
@@ -6856,7 +6856,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SonarData.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SonarData.hpp
 ostream
 -
 string
@@ -6882,7 +6882,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/BeamConfig.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SoundSpeed.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SoundSpeed.hpp
 ostream
 -
 string
@@ -6906,129 +6906,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/StationKeeping.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-IMC/Spec/Maneuver.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/StopManeuver.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/StorageUsage.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/SystemGroup.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Tachograph.hpp
-ostream
--
-string
--
-vector
--
-IMC/Base/Config.hpp
--
-IMC/Base/Message.hpp
--
-IMC/Base/InlineMessage.hpp
--
-IMC/Base/MessageList.hpp
--
-IMC/Base/JSON.hpp
--
-IMC/Base/Serialization.hpp
--
-IMC/Spec/Enumerations.hpp
--
-IMC/Spec/Bitfields.hpp
--
-
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Takeoff.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/StationKeeping.hpp
 ostream
 -
 string
@@ -7054,7 +6932,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Target.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/StopManeuver.hpp
 ostream
 -
 string
@@ -7078,7 +6956,79 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Teleoperation.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/StorageUsage.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/SystemGroup.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Tachograph.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Takeoff.hpp
 ostream
 -
 string
@@ -7104,7 +7054,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/TeleoperationDone.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Target.hpp
 ostream
 -
 string
@@ -7128,7 +7078,33 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Temperature.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Teleoperation.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+IMC/Spec/Maneuver.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/TeleoperationDone.hpp
 ostream
 -
 string
@@ -7152,7 +7128,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/TextMessage.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Temperature.hpp
 ostream
 -
 string
@@ -7176,7 +7152,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Throttle.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/TextMessage.hpp
 ostream
 -
 string
@@ -7200,7 +7176,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/TrajectoryPoint.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Throttle.hpp
 ostream
 -
 string
@@ -7224,7 +7200,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/TransportBindings.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/TrajectoryPoint.hpp
 ostream
 -
 string
@@ -7248,7 +7224,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/TrexAttribute.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/TransportBindings.hpp
 ostream
 -
 string
@@ -7272,7 +7248,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/TrexCommand.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/TrexAttribute.hpp
 ostream
 -
 string
@@ -7296,7 +7272,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/TrexObservation.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/TrexCommand.hpp
 ostream
 -
 string
@@ -7320,7 +7296,31 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/TrexOperation.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/TrexObservation.hpp
+ostream
+-
+string
+-
+vector
+-
+IMC/Base/Config.hpp
+-
+IMC/Base/Message.hpp
+-
+IMC/Base/InlineMessage.hpp
+-
+IMC/Base/MessageList.hpp
+-
+IMC/Base/JSON.hpp
+-
+IMC/Base/Serialization.hpp
+-
+IMC/Spec/Enumerations.hpp
+-
+IMC/Spec/Bitfields.hpp
+-
+
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/TrexOperation.hpp
 ostream
 -
 string
@@ -7346,7 +7346,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/TrexToken.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/TrexPlan.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/TrexPlan.hpp
 ostream
 -
 string
@@ -7372,7 +7372,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/TrexToken.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/TrexToken.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/TrexToken.hpp
 ostream
 -
 string
@@ -7398,7 +7398,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/TrexAttribute.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/TrueSpeed.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/TrueSpeed.hpp
 ostream
 -
 string
@@ -7422,7 +7422,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Turbidity.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Turbidity.hpp
 ostream
 -
 string
@@ -7446,7 +7446,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/UASimulation.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/UASimulation.hpp
 ostream
 -
 string
@@ -7470,7 +7470,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/UamRxFrame.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/UamRxFrame.hpp
 ostream
 -
 string
@@ -7494,7 +7494,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/UamRxRange.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/UamRxRange.hpp
 ostream
 -
 string
@@ -7518,7 +7518,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/UamTxFrame.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/UamTxFrame.hpp
 ostream
 -
 string
@@ -7542,7 +7542,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/UamTxRange.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/UamTxRange.hpp
 ostream
 -
 string
@@ -7566,7 +7566,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/UamTxStatus.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/UamTxStatus.hpp
 ostream
 -
 string
@@ -7590,7 +7590,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/UsblAngles.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/UsblAngles.hpp
 ostream
 -
 string
@@ -7614,7 +7614,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/UsblAnglesExtended.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/UsblAnglesExtended.hpp
 ostream
 -
 string
@@ -7638,7 +7638,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/UsblConfig.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/UsblConfig.hpp
 ostream
 -
 string
@@ -7664,7 +7664,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/UsblModem.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/UsblFix.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/UsblFix.hpp
 ostream
 -
 string
@@ -7688,7 +7688,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/UsblFixExtended.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/UsblFixExtended.hpp
 ostream
 -
 string
@@ -7712,7 +7712,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/UsblModem.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/UsblModem.hpp
 ostream
 -
 string
@@ -7736,7 +7736,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/UsblPosition.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/UsblPosition.hpp
 ostream
 -
 string
@@ -7760,7 +7760,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/UsblPositionExtended.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/UsblPositionExtended.hpp
 ostream
 -
 string
@@ -7784,7 +7784,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/VSWR.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/VSWR.hpp
 ostream
 -
 string
@@ -7808,7 +7808,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/VehicleCommand.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/VehicleCommand.hpp
 ostream
 -
 string
@@ -7834,7 +7834,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/VehicleFormation.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/VehicleFormation.hpp
 ostream
 -
 string
@@ -7864,7 +7864,7 @@ IMC/Spec/VehicleFormationParticipant.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/VehicleFormationParticipant.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/VehicleFormationParticipant.hpp
 ostream
 -
 string
@@ -7888,7 +7888,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/VehicleLinks.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/VehicleLinks.hpp
 ostream
 -
 string
@@ -7914,7 +7914,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Announce.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/VehicleMedium.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/VehicleMedium.hpp
 ostream
 -
 string
@@ -7938,7 +7938,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/VehicleOperationalLimits.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/VehicleOperationalLimits.hpp
 ostream
 -
 string
@@ -7962,7 +7962,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/VehicleState.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/VehicleState.hpp
 ostream
 -
 string
@@ -7986,7 +7986,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/VelocityDelta.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/VelocityDelta.hpp
 ostream
 -
 string
@@ -8010,7 +8010,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/Voltage.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/Voltage.hpp
 ostream
 -
 string
@@ -8034,7 +8034,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/WaterDensity.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/WaterDensity.hpp
 ostream
 -
 string
@@ -8058,7 +8058,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/WaterVelocity.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/WaterVelocity.hpp
 ostream
 -
 string
@@ -8082,7 +8082,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/WindSpeed.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/WindSpeed.hpp
 ostream
 -
 string
@@ -8106,7 +8106,7 @@ IMC/Spec/Enumerations.hpp
 IMC/Spec/Bitfields.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/IMC/Spec/YoYo.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/IMC/Spec/YoYo.hpp
 ostream
 -
 string
@@ -8132,7 +8132,7 @@ IMC/Spec/Bitfields.hpp
 IMC/Spec/Maneuver.hpp
 -
 
-/home/tore/ws/src/ros_imc_broker/include/ros_imc_broker/Broker.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/ros_imc_broker/Broker.hpp
 boost/thread/thread.hpp
 -
 boost/shared_ptr.hpp
@@ -8152,7 +8152,7 @@ ros_imc_broker/BrokerParamsConfig.h
 IMC/Spec/Factory.xdef
 -
 
-/home/tore/ws/src/ros_imc_broker/include/ros_imc_broker/ImcTypes.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/ros_imc_broker/ImcTypes.hpp
 ros/ros.h
 -
 ros/message_traits.h
@@ -8166,7 +8166,7 @@ IMC/Spec/AllMessages.hpp
 IMC/Spec/Factory.xdef
 -
 
-/home/tore/ws/src/ros_imc_broker/include/ros_imc_broker/Mappings.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/ros_imc_broker/Mappings.hpp
 ros/ros.h
 -
 IMC/Spec/AllMessages.hpp
@@ -8178,7 +8178,7 @@ IMC/Spec/Factory.xdef
 IMC/Spec/Factory.xdef
 -
 
-/home/tore/ws/src/ros_imc_broker/include/ros_imc_broker/TcpLink.hpp
+/home/tore/software/dora/src/ros_imc_broker/include/ros_imc_broker/TcpLink.hpp
 cstdlib
 -
 cstring
@@ -8192,7 +8192,7 @@ IMC/Base/Parser.hpp
 ros/ros.h
 -
 
-/home/tore/ws/src/ros_imc_broker/src/broker_node.cpp
+/home/tore/software/dora/src/ros_imc_broker/src/broker_node.cpp
 ros/ros.h
 -
 ros_imc_broker/Broker.hpp

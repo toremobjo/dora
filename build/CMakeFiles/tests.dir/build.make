@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tore/ws/src
+CMAKE_SOURCE_DIR = /home/tore/software/dora/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tore/ws/build
+CMAKE_BINARY_DIR = /home/tore/software/dora/build
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/tore/ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tore/ws/src /home/tore/ws/src /home/tore/ws/build /home/tore/ws/build /home/tore/ws/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tore/software/dora/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tore/software/dora/src /home/tore/software/dora/src /home/tore/software/dora/build /home/tore/software/dora/build /home/tore/software/dora/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

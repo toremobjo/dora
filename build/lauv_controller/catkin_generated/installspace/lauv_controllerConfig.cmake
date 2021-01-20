@@ -67,14 +67,14 @@ set(lauv_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(lauv_controller_SOURCE_PREFIX /home/tore/ws/src/lauv_controller)
-  set(lauv_controller_DEVEL_PREFIX /home/tore/ws/devel)
+  set(lauv_controller_SOURCE_PREFIX /home/tore/software/dora/src/lauv_controller)
+  set(lauv_controller_DEVEL_PREFIX /home/tore/software/dora/devel)
   set(lauv_controller_INSTALL_PREFIX "")
   set(lauv_controller_PREFIX ${lauv_controller_DEVEL_PREFIX})
 else()
   set(lauv_controller_SOURCE_PREFIX "")
   set(lauv_controller_DEVEL_PREFIX "")
-  set(lauv_controller_INSTALL_PREFIX /home/tore/ws/install)
+  set(lauv_controller_INSTALL_PREFIX /home/tore/software/dora/install)
   set(lauv_controller_PREFIX ${lauv_controller_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tore/ws/install/lib;/home/tore/ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/tore/software/dora/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -114,6 +114,7 @@ public:
     subscribe<ParamsController, IMC::PlanControlState>("IMC/In/PlanControlState",this);
     subscribe<ParamsController, IMC::Salinity>("IMC/In/Salinity",this);
 
+
     subscribe<ParamsController, imc_ros_msgs::Abort>("ROS/In/Abort",this);
     subscribe<ParamsController, imc_ros_msgs::Reference>("ROS/In/Reference",this);
     subscribe<ParamsController, imc_ros_msgs::FollowReference>("ROS/In/FollowReference",this);
@@ -188,8 +189,8 @@ public:
     IMC::DesiredSpeed speed_ref;
     speed_ref.value = msg.speed.value.data;
     speed_ref.speed_units = msg.speed.speed_units.data; //IMC::SUNITS_METERS_PS;
-    ref->speed.set(speed_ref);
 
+    ref->speed.set(speed_ref);
     ref->radius = msg.radius.data;
 
     out_reference_pub_.publish(ref);
@@ -211,7 +212,7 @@ public:
     man.control_src = 0xFFFF;
     man.control_ent = 255;
     man.loiter_radius = msg.loiter_radius.data;
-    man.timeout = 0.0;
+    man.timeout = 120.0;
 
     IMC::PlanManeuver pm;
     pm.maneuver_id = "1";

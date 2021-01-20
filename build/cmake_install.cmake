@@ -1,8 +1,8 @@
-# Install script for directory: /home/tore/ws/src
+# Install script for directory: /home/tore/software/dora/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tore/ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tore/software/dora/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,94 +49,94 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tore/ws/install/_setup_util.py")
+   "/home/tore/software/dora/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tore/ws/install" TYPE PROGRAM FILES "/home/tore/ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/tore/software/dora/install" TYPE PROGRAM FILES "/home/tore/software/dora/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tore/ws/install/env.sh")
+   "/home/tore/software/dora/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tore/ws/install" TYPE PROGRAM FILES "/home/tore/ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/tore/software/dora/install" TYPE PROGRAM FILES "/home/tore/software/dora/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tore/ws/install/setup.bash;/home/tore/ws/install/local_setup.bash")
+   "/home/tore/software/dora/install/setup.bash;/home/tore/software/dora/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tore/ws/install" TYPE FILE FILES
-    "/home/tore/ws/build/catkin_generated/installspace/setup.bash"
-    "/home/tore/ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/tore/software/dora/install" TYPE FILE FILES
+    "/home/tore/software/dora/build/catkin_generated/installspace/setup.bash"
+    "/home/tore/software/dora/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tore/ws/install/setup.sh;/home/tore/ws/install/local_setup.sh")
+   "/home/tore/software/dora/install/setup.sh;/home/tore/software/dora/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tore/ws/install" TYPE FILE FILES
-    "/home/tore/ws/build/catkin_generated/installspace/setup.sh"
-    "/home/tore/ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/tore/software/dora/install" TYPE FILE FILES
+    "/home/tore/software/dora/build/catkin_generated/installspace/setup.sh"
+    "/home/tore/software/dora/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tore/ws/install/setup.zsh;/home/tore/ws/install/local_setup.zsh")
+   "/home/tore/software/dora/install/setup.zsh;/home/tore/software/dora/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tore/ws/install" TYPE FILE FILES
-    "/home/tore/ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/tore/ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/tore/software/dora/install" TYPE FILE FILES
+    "/home/tore/software/dora/build/catkin_generated/installspace/setup.zsh"
+    "/home/tore/software/dora/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tore/ws/install/.rosinstall")
+   "/home/tore/software/dora/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tore/ws/install" TYPE FILE FILES "/home/tore/ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/tore/software/dora/install" TYPE FILE FILES "/home/tore/software/dora/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tore/ws/build/ice_drift/generator/cmake_install.cmake")
-  include("/home/tore/ws/build/minerva2/Control_System_Minerva2/cmake_install.cmake")
-  include("/home/tore/ws/build/minerva2/minerva2_iface/cmake_install.cmake")
-  include("/home/tore/ws/build/imc_ros_msgs/cmake_install.cmake")
-  include("/home/tore/ws/build/lauv_controller/cmake_install.cmake")
-  include("/home/tore/ws/build/ros_imc_broker/cmake_install.cmake")
-  include("/home/tore/ws/build/front_crosser/cmake_install.cmake")
+  include("/home/tore/software/dora/build/gtest/cmake_install.cmake")
+  include("/home/tore/software/dora/build/ice_drift/generator/cmake_install.cmake")
+  include("/home/tore/software/dora/build/imc_ros_msgs/cmake_install.cmake")
+  include("/home/tore/software/dora/build/lauv_controller/cmake_install.cmake")
+  include("/home/tore/software/dora/build/ros_imc_broker/cmake_install.cmake")
+  include("/home/tore/software/dora/build/front_crosser/cmake_install.cmake")
+  include("/home/tore/software/dora/build/imc_ros_bridge/cmake_install.cmake")
 
 endif()
 
@@ -148,5 +148,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tore/ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tore/software/dora/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

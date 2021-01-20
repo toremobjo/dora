@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tore/ws/src
+CMAKE_SOURCE_DIR = /home/tore/software/dora/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tore/ws/build
+CMAKE_BINARY_DIR = /home/tore/software/dora/build
 
 # Utility rule file for _imc_ros_msgs_generate_messages_check_deps_EntityActivationState.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/tore/ws/build
 include imc_ros_msgs/CMakeFiles/_imc_ros_msgs_generate_messages_check_deps_EntityActivationState.dir/progress.make
 
 imc_ros_msgs/CMakeFiles/_imc_ros_msgs_generate_messages_check_deps_EntityActivationState:
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py imc_ros_msgs /home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/String:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py imc_ros_msgs /home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/String:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64
 
 _imc_ros_msgs_generate_messages_check_deps_EntityActivationState: imc_ros_msgs/CMakeFiles/_imc_ros_msgs_generate_messages_check_deps_EntityActivationState
 _imc_ros_msgs_generate_messages_check_deps_EntityActivationState: imc_ros_msgs/CMakeFiles/_imc_ros_msgs_generate_messages_check_deps_EntityActivationState.dir/build.make
@@ -67,10 +67,10 @@ imc_ros_msgs/CMakeFiles/_imc_ros_msgs_generate_messages_check_deps_EntityActivat
 .PHONY : imc_ros_msgs/CMakeFiles/_imc_ros_msgs_generate_messages_check_deps_EntityActivationState.dir/build
 
 imc_ros_msgs/CMakeFiles/_imc_ros_msgs_generate_messages_check_deps_EntityActivationState.dir/clean:
-	cd /home/tore/ws/build/imc_ros_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_imc_ros_msgs_generate_messages_check_deps_EntityActivationState.dir/cmake_clean.cmake
+	cd /home/tore/software/dora/build/imc_ros_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_imc_ros_msgs_generate_messages_check_deps_EntityActivationState.dir/cmake_clean.cmake
 .PHONY : imc_ros_msgs/CMakeFiles/_imc_ros_msgs_generate_messages_check_deps_EntityActivationState.dir/clean
 
 imc_ros_msgs/CMakeFiles/_imc_ros_msgs_generate_messages_check_deps_EntityActivationState.dir/depend:
-	cd /home/tore/ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tore/ws/src /home/tore/ws/src/imc_ros_msgs /home/tore/ws/build /home/tore/ws/build/imc_ros_msgs /home/tore/ws/build/imc_ros_msgs/CMakeFiles/_imc_ros_msgs_generate_messages_check_deps_EntityActivationState.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tore/software/dora/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tore/software/dora/src /home/tore/software/dora/src/imc_ros_msgs /home/tore/software/dora/build /home/tore/software/dora/build/imc_ros_msgs /home/tore/software/dora/build/imc_ros_msgs/CMakeFiles/_imc_ros_msgs_generate_messages_check_deps_EntityActivationState.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : imc_ros_msgs/CMakeFiles/_imc_ros_msgs_generate_messages_check_deps_EntityActivationState.dir/depend
 

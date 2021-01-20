@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tore/ws/src
+CMAKE_SOURCE_DIR = /home/tore/software/dora/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tore/ws/build
+CMAKE_BINARY_DIR = /home/tore/software/dora/build
 
 # Utility rule file for dynamic_reconfigure_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ imc_ros_msgs/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build: dy
 .PHONY : imc_ros_msgs/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 
 imc_ros_msgs/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean:
-	cd /home/tore/ws/build/imc_ros_msgs && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/tore/software/dora/build/imc_ros_msgs && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : imc_ros_msgs/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
 
 imc_ros_msgs/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/depend:
-	cd /home/tore/ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tore/ws/src /home/tore/ws/src/imc_ros_msgs /home/tore/ws/build /home/tore/ws/build/imc_ros_msgs /home/tore/ws/build/imc_ros_msgs/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tore/software/dora/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tore/software/dora/src /home/tore/software/dora/src/imc_ros_msgs /home/tore/software/dora/build /home/tore/software/dora/build/imc_ros_msgs /home/tore/software/dora/build/imc_ros_msgs/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : imc_ros_msgs/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/depend
 

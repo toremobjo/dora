@@ -1,4 +1,4 @@
-prefix=/home/tore/ws/install
+prefix=/home/tore/software/dora/install
 
 Name: front_crosser
 Description: Description of front_crosser

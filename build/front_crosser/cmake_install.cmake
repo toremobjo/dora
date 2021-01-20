@@ -1,8 +1,8 @@
-# Install script for directory: /home/tore/ws/src/front_crosser
+# Install script for directory: /home/tore/software/dora/src/front_crosser
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tore/ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tore/software/dora/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tore/ws/build/front_crosser/catkin_generated/installspace/front_crosser.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tore/software/dora/build/front_crosser/catkin_generated/installspace/front_crosser.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/front_crosser/cmake" TYPE FILE FILES
-    "/home/tore/ws/build/front_crosser/catkin_generated/installspace/front_crosserConfig.cmake"
-    "/home/tore/ws/build/front_crosser/catkin_generated/installspace/front_crosserConfig-version.cmake"
+    "/home/tore/software/dora/build/front_crosser/catkin_generated/installspace/front_crosserConfig.cmake"
+    "/home/tore/software/dora/build/front_crosser/catkin_generated/installspace/front_crosserConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/front_crosser" TYPE FILE FILES "/home/tore/ws/src/front_crosser/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/front_crosser" TYPE FILE FILES "/home/tore/software/dora/src/front_crosser/package.xml")
 endif()
 

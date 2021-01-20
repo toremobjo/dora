@@ -67,14 +67,14 @@ set(front_crosser_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(front_crosser_SOURCE_PREFIX /home/tore/ws/src/front_crosser)
-  set(front_crosser_DEVEL_PREFIX /home/tore/ws/devel)
+  set(front_crosser_SOURCE_PREFIX /home/tore/software/dora/src/front_crosser)
+  set(front_crosser_DEVEL_PREFIX /home/tore/software/dora/devel)
   set(front_crosser_INSTALL_PREFIX "")
   set(front_crosser_PREFIX ${front_crosser_DEVEL_PREFIX})
 else()
   set(front_crosser_SOURCE_PREFIX "")
   set(front_crosser_DEVEL_PREFIX "")
-  set(front_crosser_INSTALL_PREFIX /home/tore/ws/install)
+  set(front_crosser_INSTALL_PREFIX /home/tore/software/dora/install)
   set(front_crosser_PREFIX ${front_crosser_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tore/ws/install/lib;/home/tore/ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/tore/software/dora/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

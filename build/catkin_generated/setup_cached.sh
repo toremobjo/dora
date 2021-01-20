@@ -7,4 +7,11 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/tore/ws/build"
+export CMAKE_PREFIX_PATH="/home/tore/software/dora/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/tore/software/dora/devel/lib:$LD_LIBRARY_PATH"
+export PATH='/opt/ros/melodic/bin:/home/tore/.pyenv/plugins/pyenv-virtualenv/shims:/home/tore/.pyenv/shims:/home/tore/.pyenv/bin:/home/tore/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+export PKG_CONFIG_PATH="/home/tore/software/dora/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/tore/software/dora/build'
+export PYTHONPATH="/home/tore/software/dora/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/tore/software/dora/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/tore/software/dora/src:$ROS_PACKAGE_PATH"

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tore/ws/src
+CMAKE_SOURCE_DIR = /home/tore/software/dora/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tore/ws/build
+CMAKE_BINARY_DIR = /home/tore/software/dora/build
 
 # Utility rule file for std_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ ice_drift/generator/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build: std_
 .PHONY : ice_drift/generator/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 
 ice_drift/generator/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/tore/ws/build/ice_drift/generator && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/tore/software/dora/build/ice_drift/generator && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : ice_drift/generator/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 ice_drift/generator/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/tore/ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tore/ws/src /home/tore/ws/src/ice_drift/generator /home/tore/ws/build /home/tore/ws/build/ice_drift/generator /home/tore/ws/build/ice_drift/generator/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tore/software/dora/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tore/software/dora/src /home/tore/software/dora/src/ice_drift/generator /home/tore/software/dora/build /home/tore/software/dora/build/ice_drift/generator /home/tore/software/dora/build/ice_drift/generator/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ice_drift/generator/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 

@@ -43,412 +43,412 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tore/ws/src
+CMAKE_SOURCE_DIR = /home/tore/software/dora/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tore/ws/build
+CMAKE_BINARY_DIR = /home/tore/software/dora/build
 
 # Utility rule file for imc_ros_msgs_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs.dir/progress.make
 
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js
-imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js
+imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js
 
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from imc_ros_msgs/Salinity.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from imc_ros_msgs/Temperature.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from imc_ros_msgs/TrexToken.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from imc_ros_msgs/EntityState.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from imc_ros_msgs/SimulatedState.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from imc_ros_msgs/EntityList.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from imc_ros_msgs/DissolvedOrganicMatter.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from imc_ros_msgs/EstimatedState.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from imc_ros_msgs/Chlorophyll.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/share/std_msgs/msg/Int32.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from imc_ros_msgs/PlanControlState.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from imc_ros_msgs/Temperature.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from imc_ros_msgs/DissolvedOrganicMatter.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/share/std_msgs/msg/Int32.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from imc_ros_msgs/PlanControlState.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from imc_ros_msgs/TrexAttribute.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from imc_ros_msgs/OperationalLimits.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from imc_ros_msgs/Abort.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js: /home/tore/ws/src/imc_ros_msgs/msg/Abort.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from imc_ros_msgs/Abort.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/Abort.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from imc_ros_msgs/TrexOperation.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from imc_ros_msgs/TrexOperation.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js: /home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from imc_ros_msgs/VehicleMedium.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js: /home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from imc_ros_msgs/EntityState.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from imc_ros_msgs/OperationalLimits.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /home/tore/ws/src/imc_ros_msgs/msg/Reference.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from imc_ros_msgs/Reference.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/Reference.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from imc_ros_msgs/IridiumMsgTx.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /home/tore/ws/src/imc_ros_msgs/msg/Reference.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from imc_ros_msgs/FollowRefState.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from imc_ros_msgs/NavigationUncertainty.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from imc_ros_msgs/TrexAttribute.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from imc_ros_msgs/SimulatedState.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from imc_ros_msgs/EntityList.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from imc_ros_msgs/DesiredZ.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from imc_ros_msgs/YoYo.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from imc_ros_msgs/Reference.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Javascript code from imc_ros_msgs/NavigationUncertainty.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js: /home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Javascript code from imc_ros_msgs/TrexToken.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Javascript code from imc_ros_msgs/EntityActivationState.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js: /home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Javascript code from imc_ros_msgs/StopManeuver.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Javascript code from imc_ros_msgs/Header.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/Header.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Javascript code from imc_ros_msgs/EntityActivationState.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Javascript code from imc_ros_msgs/FollowReference.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Javascript code from imc_ros_msgs/GpsFix.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js: /home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Javascript code from imc_ros_msgs/Heartbeat.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Javascript code from imc_ros_msgs/Depth.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Javascript code from imc_ros_msgs/IridiumMsgTx.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Javascript code from imc_ros_msgs/FollowRefState.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js: /home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Javascript code from imc_ros_msgs/VehicleMedium.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Javascript code from imc_ros_msgs/FollowReference.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Javascript code from imc_ros_msgs/OpticalBackscatter.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Javascript code from imc_ros_msgs/Chlorophyll.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js: /home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Javascript code from imc_ros_msgs/StopManeuver.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js: /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Javascript code from imc_ros_msgs/DesiredSpeed.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Javascript code from imc_ros_msgs/EstimatedState.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Javascript code from imc_ros_msgs/Header.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Javascript code from imc_ros_msgs/GpsFix.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /opt/ros/melodic/share/std_msgs/msg/String.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Javascript code from imc_ros_msgs/YoYo.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /home/tore/ws/src/imc_ros_msgs/msg/Depth.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Javascript code from imc_ros_msgs/Depth.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/Depth.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Javascript code from imc_ros_msgs/Salinity.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js: /home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Javascript code from imc_ros_msgs/DesiredSpeed.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Javascript code from imc_ros_msgs/Heartbeat.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /home/tore/ws/src/imc_ros_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
-/home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Javascript code from imc_ros_msgs/DesiredZ.msg"
-	cd /home/tore/ws/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg -Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /opt/ros/melodic/share/std_msgs/msg/UInt8.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /opt/ros/melodic/share/std_msgs/msg/UInt16.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /opt/ros/melodic/share/std_msgs/msg/Float64.msg
+/home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js: /opt/ros/melodic/share/std_msgs/msg/Float32.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tore/software/dora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Javascript code from imc_ros_msgs/OpticalBackscatter.msg"
+	cd /home/tore/software/dora/build/imc_ros_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg -Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p imc_ros_msgs -o /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg
 
 imc_ros_msgs_generate_messages_nodejs: imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js
-imc_ros_msgs_generate_messages_nodejs: /home/tore/ws/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Temperature.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityState.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityList.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EstimatedState.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/PlanControlState.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DissolvedOrganicMatter.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexAttribute.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Abort.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexOperation.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/VehicleMedium.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OperationalLimits.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/IridiumMsgTx.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/NavigationUncertainty.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/SimulatedState.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredZ.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Reference.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/TrexToken.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/StopManeuver.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/EntityActivationState.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/GpsFix.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Depth.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowRefState.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/FollowReference.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Chlorophyll.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/DesiredSpeed.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Header.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/YoYo.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Salinity.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/Heartbeat.js
+imc_ros_msgs_generate_messages_nodejs: /home/tore/software/dora/devel/share/gennodejs/ros/imc_ros_msgs/msg/OpticalBackscatter.js
 imc_ros_msgs_generate_messages_nodejs: imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs.dir/build.make
 
 .PHONY : imc_ros_msgs_generate_messages_nodejs
@@ -459,10 +459,10 @@ imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs.dir/build: imc_ros
 .PHONY : imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs.dir/build
 
 imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/tore/ws/build/imc_ros_msgs && $(CMAKE_COMMAND) -P CMakeFiles/imc_ros_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/tore/software/dora/build/imc_ros_msgs && $(CMAKE_COMMAND) -P CMakeFiles/imc_ros_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs.dir/clean
 
 imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/tore/ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tore/ws/src /home/tore/ws/src/imc_ros_msgs /home/tore/ws/build /home/tore/ws/build/imc_ros_msgs /home/tore/ws/build/imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tore/software/dora/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tore/software/dora/src /home/tore/software/dora/src/imc_ros_msgs /home/tore/software/dora/build /home/tore/software/dora/build/imc_ros_msgs /home/tore/software/dora/build/imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : imc_ros_msgs/CMakeFiles/imc_ros_msgs_generate_messages_nodejs.dir/depend
 

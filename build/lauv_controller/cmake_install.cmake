@@ -1,8 +1,8 @@
-# Install script for directory: /home/tore/ws/src/lauv_controller
+# Install script for directory: /home/tore/software/dora/src/lauv_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tore/ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tore/software/dora/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/tore/ws/build/lauv_controller/catkin_generated/safe_execute_install.cmake")
+  include("/home/tore/software/dora/build/lauv_controller/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tore/ws/build/lauv_controller/catkin_generated/installspace/lauv_controller.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tore/software/dora/build/lauv_controller/catkin_generated/installspace/lauv_controller.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lauv_controller/cmake" TYPE FILE FILES
-    "/home/tore/ws/build/lauv_controller/catkin_generated/installspace/lauv_controllerConfig.cmake"
-    "/home/tore/ws/build/lauv_controller/catkin_generated/installspace/lauv_controllerConfig-version.cmake"
+    "/home/tore/software/dora/build/lauv_controller/catkin_generated/installspace/lauv_controllerConfig.cmake"
+    "/home/tore/software/dora/build/lauv_controller/catkin_generated/installspace/lauv_controllerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lauv_controller" TYPE FILE FILES "/home/tore/ws/src/lauv_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lauv_controller" TYPE FILE FILES "/home/tore/software/dora/src/lauv_controller/package.xml")
 endif()
 

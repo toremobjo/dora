@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tore/ws/src
+CMAKE_SOURCE_DIR = /home/tore/software/dora/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tore/ws/build
+CMAKE_BINARY_DIR = /home/tore/software/dora/build
 
 # Utility rule file for imc_ros_msgs_gennodejs.
 
@@ -63,10 +63,10 @@ imc_ros_msgs/CMakeFiles/imc_ros_msgs_gennodejs.dir/build: imc_ros_msgs_gennodejs
 .PHONY : imc_ros_msgs/CMakeFiles/imc_ros_msgs_gennodejs.dir/build
 
 imc_ros_msgs/CMakeFiles/imc_ros_msgs_gennodejs.dir/clean:
-	cd /home/tore/ws/build/imc_ros_msgs && $(CMAKE_COMMAND) -P CMakeFiles/imc_ros_msgs_gennodejs.dir/cmake_clean.cmake
+	cd /home/tore/software/dora/build/imc_ros_msgs && $(CMAKE_COMMAND) -P CMakeFiles/imc_ros_msgs_gennodejs.dir/cmake_clean.cmake
 .PHONY : imc_ros_msgs/CMakeFiles/imc_ros_msgs_gennodejs.dir/clean
 
 imc_ros_msgs/CMakeFiles/imc_ros_msgs_gennodejs.dir/depend:
-	cd /home/tore/ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tore/ws/src /home/tore/ws/src/imc_ros_msgs /home/tore/ws/build /home/tore/ws/build/imc_ros_msgs /home/tore/ws/build/imc_ros_msgs/CMakeFiles/imc_ros_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tore/software/dora/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tore/software/dora/src /home/tore/software/dora/src/imc_ros_msgs /home/tore/software/dora/build /home/tore/software/dora/build/imc_ros_msgs /home/tore/software/dora/build/imc_ros_msgs/CMakeFiles/imc_ros_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : imc_ros_msgs/CMakeFiles/imc_ros_msgs_gennodejs.dir/depend
 

@@ -1,4 +1,4 @@
-prefix=/home/tore/ws/install
+prefix=/home/tore/software/dora/install
 
 Name: imc_ros_msgs
 Description: Description of imc_ros_msgs

@@ -1,4 +1,4 @@
-prefix=/home/tore/ws/install
+prefix=/home/tore/software/dora/install
 
 Name: ros_imc_broker
 Description: Description of ros_imc_broker

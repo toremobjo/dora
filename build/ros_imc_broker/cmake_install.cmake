@@ -1,8 +1,8 @@
-# Install script for directory: /home/tore/ws/src/ros_imc_broker
+# Install script for directory: /home/tore/software/dora/src/ros_imc_broker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tore/ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tore/software/dora/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ros_imc_broker" TYPE FILE FILES "/home/tore/ws/devel/include/ros_imc_broker/BrokerParamsConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ros_imc_broker" TYPE FILE FILES "/home/tore/software/dora/devel/include/ros_imc_broker/BrokerParamsConfig.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ros_imc_broker" TYPE FILE FILES "/home/tore/ws/devel/lib/python2.7/dist-packages/ros_imc_broker/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ros_imc_broker" TYPE FILE FILES "/home/tore/software/dora/devel/lib/python2.7/dist-packages/ros_imc_broker/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/tore/ws/devel/lib/python2.7/dist-packages/ros_imc_broker/cfg")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/tore/software/dora/devel/lib/python2.7/dist-packages/ros_imc_broker/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ros_imc_broker" TYPE DIRECTORY FILES "/home/tore/ws/devel/lib/python2.7/dist-packages/ros_imc_broker/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ros_imc_broker" TYPE DIRECTORY FILES "/home/tore/software/dora/devel/lib/python2.7/dist-packages/ros_imc_broker/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tore/ws/build/ros_imc_broker/catkin_generated/installspace/ros_imc_broker.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tore/software/dora/build/ros_imc_broker/catkin_generated/installspace/ros_imc_broker.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_imc_broker/cmake" TYPE FILE FILES
-    "/home/tore/ws/build/ros_imc_broker/catkin_generated/installspace/ros_imc_brokerConfig.cmake"
-    "/home/tore/ws/build/ros_imc_broker/catkin_generated/installspace/ros_imc_brokerConfig-version.cmake"
+    "/home/tore/software/dora/build/ros_imc_broker/catkin_generated/installspace/ros_imc_brokerConfig.cmake"
+    "/home/tore/software/dora/build/ros_imc_broker/catkin_generated/installspace/ros_imc_brokerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_imc_broker" TYPE FILE FILES "/home/tore/ws/src/ros_imc_broker/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_imc_broker" TYPE FILE FILES "/home/tore/software/dora/src/ros_imc_broker/package.xml")
 endif()
 

@@ -2,7 +2,7 @@
 
 message(STATUS "imc_ros_msgs: 30 messages, 0 services")
 
-set(MSG_I_FLAGS "-Iimc_ros_msgs:/home/tore/ws/src/imc_ros_msgs/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iimc_ros_msgs:/home/tore/software/dora/src/imc_ros_msgs/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,154 +17,154 @@ add_custom_target(imc_ros_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/String:std_msgs/UInt16:imc_ros_msgs/TrexAttribute:std_msgs/Header:std_msgs/Float64"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/String:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/String:std_msgs/Int32:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg" "std_msgs/Float64:imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/String:std_msgs/Int32:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/String:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Abort.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/Abort.msg" "imc_ros_msgs/Header:std_msgs/Float64:std_msgs/UInt16:std_msgs/UInt8:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg" "imc_ros_msgs/TrexToken:imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/String:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:imc_ros_msgs/TrexAttribute"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg" "imc_ros_msgs/TrexToken:std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/String:std_msgs/UInt16:imc_ros_msgs/TrexAttribute:std_msgs/Header:std_msgs/Float64"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg" "std_msgs/Float64:imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg" "imc_ros_msgs/Header:std_msgs/Float64:std_msgs/UInt16:std_msgs/UInt8:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg" "imc_ros_msgs/DesiredSpeed:std_msgs/UInt8:imc_ros_msgs/Header:imc_ros_msgs/DesiredZ:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/String:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg" "imc_ros_msgs/DesiredSpeed:std_msgs/UInt8:imc_ros_msgs/Reference:imc_ros_msgs/Header:imc_ros_msgs/DesiredZ:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/String:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/String:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:imc_ros_msgs/DesiredSpeed:std_msgs/Header:std_msgs/Float64:imc_ros_msgs/DesiredZ:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/String:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/String:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:imc_ros_msgs/TrexAttribute"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg" "std_msgs/Float64:std_msgs/UInt16:std_msgs/UInt8:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg" "std_msgs/Float64:imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg" "imc_ros_msgs/Header:std_msgs/Float64:std_msgs/UInt16:std_msgs/UInt8:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/String:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/String:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg" "imc_ros_msgs/Header:std_msgs/Float64:std_msgs/UInt16:std_msgs/UInt8:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg" "imc_ros_msgs/DesiredSpeed:imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:imc_ros_msgs/Reference:std_msgs/Header:std_msgs/Float64:imc_ros_msgs/DesiredZ:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg" "imc_ros_msgs/Header:std_msgs/Float64:std_msgs/UInt16:std_msgs/UInt8:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg" "std_msgs/Float64:imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg" "std_msgs/Float64:imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg" "std_msgs/Float64:std_msgs/UInt16:std_msgs/UInt8:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Depth.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/Depth.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg" "imc_ros_msgs/Header:std_msgs/Float64:std_msgs/UInt16:std_msgs/UInt8:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg" "std_msgs/Float64:imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/UInt16:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg" NAME_WE)
 add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg" "std_msgs/UInt8:imc_ros_msgs/Header:std_msgs/String:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "imc_ros_msgs" "/home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg" "imc_ros_msgs/Header:std_msgs/UInt8:std_msgs/String:std_msgs/UInt16:std_msgs/Header:std_msgs/Float64:std_msgs/Float32"
 )
 
 #
@@ -174,183 +174,183 @@ add_custom_target(_imc_ros_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Abort.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_cpp(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_cpp(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_cpp(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_cpp(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_cpp(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_cpp(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_cpp(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg"
-  "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Depth.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg"
-  "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_cpp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/imc_ros_msgs
 )
 
@@ -368,65 +368,65 @@ add_custom_target(imc_ros_msgs_generate_messages_cpp
 add_dependencies(imc_ros_msgs_generate_messages imc_ros_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Abort.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Depth.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_cpp _imc_ros_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -439,183 +439,183 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS imc_ros_msgs_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Abort.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_eus(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_eus(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_eus(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_eus(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_eus(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_eus(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_eus(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg"
-  "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Depth.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg"
-  "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_eus(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/imc_ros_msgs
 )
 
@@ -633,65 +633,65 @@ add_custom_target(imc_ros_msgs_generate_messages_eus
 add_dependencies(imc_ros_msgs_generate_messages imc_ros_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Abort.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Depth.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_eus _imc_ros_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -704,183 +704,183 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS imc_ros_msgs_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Abort.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_lisp(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_lisp(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_lisp(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_lisp(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_lisp(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_lisp(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_lisp(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg"
-  "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Depth.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg"
-  "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_lisp(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/imc_ros_msgs
 )
 
@@ -898,65 +898,65 @@ add_custom_target(imc_ros_msgs_generate_messages_lisp
 add_dependencies(imc_ros_msgs_generate_messages imc_ros_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Abort.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Depth.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_lisp _imc_ros_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -969,183 +969,183 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS imc_ros_msgs_generate_messages_lisp
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Abort.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_nodejs(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_nodejs(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_nodejs(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_nodejs(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_nodejs(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_nodejs(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_nodejs(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg"
-  "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Depth.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg"
-  "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_nodejs(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/imc_ros_msgs
 )
 
@@ -1163,65 +1163,65 @@ add_custom_target(imc_ros_msgs_generate_messages_nodejs
 add_dependencies(imc_ros_msgs_generate_messages imc_ros_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Abort.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Depth.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_nodejs _imc_ros_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -1234,183 +1234,183 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS imc_ros_msgs_generate_messages_node
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Abort.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_py(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_py(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_py(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_py(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_py(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg"
+  "${MSG_I_FLAGS}"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_py(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
+)
+_generate_msg_py(imc_ros_msgs
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 _generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg"
   "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg"
-  "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/Depth.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg"
-  "${MSG_I_FLAGS}"
-  "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
-)
-_generate_msg_py(imc_ros_msgs
-  "/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/home/tore/ws/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt8.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/UInt16.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float64.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Float32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/imc_ros_msgs
 )
 
@@ -1428,65 +1428,65 @@ add_custom_target(imc_ros_msgs_generate_messages_py
 add_dependencies(imc_ros_msgs_generate_messages imc_ros_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Salinity.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Temperature.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexToken.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/SimulatedState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityList.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DissolvedOrganicMatter.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EstimatedState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Chlorophyll.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/PlanControlState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Temperature.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/PlanControlState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexAttribute.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/OperationalLimits.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Chlorophyll.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Abort.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexOperation.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexOperation.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/VehicleMedium.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/OperationalLimits.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Reference.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/IridiumMsgTx.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/FollowRefState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/NavigationUncertainty.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/TrexAttribute.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/SimulatedState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityList.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredZ.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/NavigationUncertainty.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Reference.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EntityActivationState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/TrexToken.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Header.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Heartbeat.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/FollowReference.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/OpticalBackscatter.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Heartbeat.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/EntityActivationState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/IridiumMsgTx.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/GpsFix.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/VehicleMedium.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Depth.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DesiredZ.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowRefState.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/OpticalBackscatter.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/FollowReference.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/StopManeuver.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Abort.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/EstimatedState.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/DesiredSpeed.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/GpsFix.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Header.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/Depth.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/Salinity.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/DesiredSpeed.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/StopManeuver.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tore/ws/src/imc_ros_msgs/msg/YoYo.msg" NAME_WE)
+get_filename_component(_filename "/home/tore/software/dora/src/imc_ros_msgs/msg/YoYo.msg" NAME_WE)
 add_dependencies(imc_ros_msgs_generate_messages_py _imc_ros_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

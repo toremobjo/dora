@@ -1,4 +1,4 @@
-prefix=/home/tore/ws/devel
+prefix=/home/tore/software/dora/devel
 
 Name: generator
 Description: Description of generator
